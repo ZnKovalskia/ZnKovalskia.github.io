@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Keira Coffee Shop</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Feather Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- My Style -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!-- Navbar start -->
+    <nav class="navbar">
+      <a href="#" class="navbar-logo">Keira<span>Cafe</span>.</a>
+
+      <div class="navbar-nav">
+        <a href="#home">Home</a>
+        <a href="#about">About Us</a>
+        <a href="#menu">Menu</a>
+        <a href="#products">Products</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <div class="navbar-extra">
+        <a href="#" id="search-button"><i data-feather="search"></i></a>
+        <a href="#" id="shopping-cart-button"
+          ><i data-feather="shopping-cart"></i
+        ></a>
+        <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+      </div>
+
+      <!-- Search Form start -->
+      <div class="search-form">
+        <input type="search" id="search-box" placeholder="search here..." />
+        <label for="search-box"><i data-feather="search"></i></label>
+      </div>
+      <!-- Search Form end -->
+
+      <!-- Shopping Cart start -->
+      <div class="shopping-cart">
+        <div class="cart-item">
+          <img src="img/products/Black Ivory.png" alt="Product 1" />
+          <div class="item-detail">
+            <h3>Black Ivory</h3>
+            <div class="item-price">IDR 24,2M</div>
+          </div>
+          <i data-feather="trash-2" class="remove-item"></i>
+        </div>
+        <div class="cart-item">
+          <img src="img/products/Brix Coffee.jpg" alt="Product 1" />
+          <div class="item-detail">
+            <h3>Brix Coffee</h3>
+            <div class="item-price">IDR 15M</div>
+          </div>
+          <i data-feather="trash-2" class="remove-item"></i>
+        </div>
+        <div class="cart-item">
+          <img src="img/products/Yellow Catuai.jpg" alt="Product 1" />
+          <div class="item-detail">
+            <h3>Yellow Catuai</h3>
+            <div class="item-price">IDR 15M</div>
+          </div>
+          <i data-feather="trash-2" class="remove-item"></i>
+        </div>
+      </div>
+      <!-- Shopping Cart end -->
+    </nav>
+    <!-- Navbar end -->
+
+    <!-- Hero Section start -->
+    <section class="hero" id="home">
+      <main class="content">
+        <h1>Spread Our Passion For <span>Coffee</span></h1>
+        <p>
+          Explore our coffee passion with every sip. From choosing the finest
+          beans to crafting the perfect brew, join us in savoring and sharing
+          the joy of exceptional coffee.
+        </p>
+      </main>
+    </section>
+    <!-- Hero Section end -->
+
+    <!-- About Section start -->
+    <section id="about" class="about">
+      <h2><span>About</span> Us</h2>
+
+      <div class="row">
+        <div class="about-img">
+          <img src="img/tentang-kami.jpg" alt="Tentang Kami" />
+        </div>
+        <div class="content">
+          <h3>Why Choosing Our Coffee?</h3>
+          <p>
+            Selecting our coffee means choosing a delightful experience. We pick
+            only the best beans, ensuring each cup is a journey of quality and
+            flavor. From the farm to your mug, our commitment to excellence
+            shines through.
+          </p>
+          <p>
+            What makes us special? It's not just the great taste; it's the care
+            we put into every step, from sourcing responsibly to crafting a
+            delicious brew. When you choose our coffee, you're choosing
+            simplicity, quality, and the joy of a great cup every time.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- About Section end -->
+
+    <!-- Menu Section start -->
+    <section id="menu" class="menu">
+      <h2><span>Our</span> Menu</h2>
+      <p>
+        We offer a variety of menu options to accompany your time at our coffee
+        shop. Explore our selection as you enjoy the cozy ambiance of our
+        establishment
+      </p>
+
+      <div class="row">
+        <div class="menu-card">
+          <img
+            src="img/menu/Espresso.jpg"
+            alt="Espresso"
+            class="menu-card-img"
+          />
+          <h3 class="menu-card-title">- Espresso -</h3>
+          <p class="menu-card-price">IDR 15K</p>
+        </div>
+        <div class="menu-card">
+          <img
+            src="img/menu/Cappucino.jpg"
+            alt="Cappucino"
+            class="menu-card-img"
+          />
+          <h3 class="menu-card-title">- Cappuccino -</h3>
+          <p class="menu-card-price">IDR 44K</p>
+        </div>
+        <div class="menu-card">
+          <img src="img/menu/Latte.jpg" alt="Latte" class="menu-card-img" />
+          <h3 class="menu-card-title">- Latte -</h3>
+          <p class="menu-card-price">IDR 44K</p>
+        </div>
+        <div class="menu-card">
+          <img
+            src="img/menu/Americano.jpg"
+            alt="Americano"
+            class="menu-card-img"
+          />
+          <h3 class="menu-card-title">- Americano -</h3>
+          <p class="menu-card-price">IDR 34K</p>
+        </div>
+        <div class="menu-card">
+          <img
+            src="img/menu/Macchiato.jpg"
+            alt="Macchiato"
+            class="menu-card-img"
+          />
+          <h3 class="menu-card-title">- Macchiato -</h3>
+          <p class="menu-card-price">IDR 57K</p>
+        </div>
+        <div class="menu-card">
+          <img src="img/menu/Mocha.jpg" alt="Mocha" class="menu-card-img" />
+          <h3 class="menu-card-title">- Mocha -</h3>
+          <p class="menu-card-price">IDR 50K</p>
+        </div>
+      </div>
+    </section>
+    <!-- Menu Section end -->
+
+    <!-- Products Section start -->
+    <section class="products" id="products">
+      <h2><span>Our Special</span> Menu</h2>
+      <p>
+        A selection of premium coffee beans crafted for a unique experience.
+        Explore distinct flavors and elevate your coffee ritual with our
+        carefully curated offerings.
+      </p>
+
+      <div class="row">
+        <div class="product-card">
+          <div class="product-icons">
+            <a href="#"><i data-feather="shopping-cart"></i></a>
+            <a href="#" class="item-detail-button"
+              ><i data-feather="eye"></i
+            ></a>
+          </div>
+          <div class="product-image">
+            <img src="img/products/Black Ivory.png" alt="Product 1" />
+          </div>
+          <div class="product-content">
+            <h3>Black Ivory</h3>
+            <div class="product-stars">
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+            </div>
+            <div class="product-price">IDR 24,2M <span>IDR 30M</span></div>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-icons">
+            <a href="#"><i data-feather="shopping-cart"></i></a>
+            <a href="#" class="item-detail-button"
+              ><i data-feather="eye"></i
+            ></a>
+          </div>
+          <div class="product-image">
+            <img src="img/products/Brix Coffee.jpg" alt="Product 1" />
+          </div>
+          <div class="product-content">
+            <h3>Brix Coffee</h3>
+            <div class="product-stars">
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star"></i>
+            </div>
+            <div class="product-price">IDR 15M <span>IDR 20M</span></div>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-icons">
+            <a href="#"><i data-feather="shopping-cart"></i></a>
+            <a href="#" class="item-detail-button"
+              ><i data-feather="eye"></i
+            ></a>
+          </div>
+          <div class="product-image">
+            <img src="img/products/Oryx Coffee.jpg" alt="Product 1" />
+          </div>
+          <div class="product-content">
+            <h3>Oryx Coffee</h3>
+            <div class="product-stars">
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+            </div>
+            <div class="product-price">IDR 10M <span>IDR 25M</span></div>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-icons">
+            <a href="#"><i data-feather="shopping-cart"></i></a>
+            <a href="#" class="item-detail-button"
+              ><i data-feather="eye"></i
+            ></a>
+          </div>
+          <div class="product-image">
+            <img src="img/products/Yellow Catuai.jpg" alt="Product 1" />
+          </div>
+          <div class="product-content">
+            <h3>Yellow Catuai</h3>
+            <div class="product-stars">
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star"></i>
+            </div>
+            <div class="product-price">IDR 15M <span>IDR 20M</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Products Section end -->
+
+    <!-- Contact Section start -->
+    <section id="contact" class="contact">
+      <h2><span>Contact</span> Us</h2>
+      <p>
+        If you want to order our coffee, please contact us or go to our shop
+      </p>
+
+      <div class="row">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31664.76088552548!2d107.88852872092835!3d-7.229991871091255!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68b1da91e40087%3A0x401e8f1fc28c880!2sKota%20Garut%2C%20Kota%20Kulon%2C%20Kec.%20Garut%20Kota%2C%20Kabupaten%20Garut%2C%20Jawa%20Barat!5e0!3m2!1sid!2sid!4v1701416100009!5m2!1sid!2sid"
+          width="600"
+          height="700"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+
+        <form action="">
+          <div class="input-group">
+            <i data-feather="user"></i>
+            <input type="text" placeholder="Name" />
+          </div>
+          <div class="input-group">
+            <i data-feather="mail"></i>
+            <input type="text" placeholder="E-Mail" />
+          </div>
+          <div class="input-group">
+            <i data-feather="phone"></i>
+            <input type="text" placeholder="No Handphone" />
+          </div>
+          <button type="submit" class="btn">Send Message</button>
+        </form>
+      </div>
+    </section>
+    <!-- Contact Section end -->
+
+    <!-- Footer start -->
+    <footer>
+      <div class="socials">
+        <a href="#"><i data-feather="instagram"></i></a>
+        <a href="#"><i data-feather="twitter"></i></a>
+        <a href="#"><i data-feather="facebook"></i></a>
+      </div>
+
+      <div class="links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#menu">Menu</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <div class="credit">
+        <p>Created by <a href="">Razaan Alwan</a>. | &copy; 2023.</p>
+      </div>
+    </footer>
+    <!-- Footer end -->
+
+    <!-- Modal Box Item Detail start -->
+    <div class="modal" id="item-detail-modal">
+      <div class="modal-container">
+        <a href="#" class="close-icon"><i data-feather="x"></i></a>
+        <div class="modal-content">
+          <img src="img/products/Black Ivory.png" alt="Product 1" />
+          <div class="product-content">
+            <h3>Black Ivory</h3>
+            <p>
+              Black Ivory coffee is a brand of coffee produced by Black Ivory
+              Coffee Company Ltd in northern Thailand, which is processed from
+              Arabica coffee beans that have been eaten by elephants and
+              collected from their droppings.The taste of this coffee is
+              influenced by digestive enzymes in elephants, which break down the
+              proteins in the coffee.Protein is one of the main factors in
+              coffee bitterness. With less protein, the bitterness is also
+              reduced.
+            </p>
+            <div class="product-stars">
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star"></i>
+            </div>
+            <div class="product-price">IDR 24.2M</div>
+            <a href="#"
+              ><i data-feather="shopping-cart"></i> <span>add to cart</span></a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal Box Item Detail end -->
+
+    <!-- Feather Icons -->
+    <script>
+      feather.replace();
+    </script>
+
+    <!-- My Javascript -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
